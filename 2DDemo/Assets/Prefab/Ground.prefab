@@ -109,7 +109,7 @@ Transform:
   m_GameObject: {fileID: 577568333938750081}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -3.47, z: 0}
-  m_LocalScale: {x: 17.631739, y: 1, z: 1}
+  m_LocalScale: {x: 5.9665184, y: 1, z: 1}
   m_Children:
   - {fileID: 577568333004297922}
   m_Father: {fileID: 0}
@@ -156,7 +156,7 @@ PlatformEffector2D:
   m_RotationalOffset: 0
   m_UseOneWay: 1
   m_UseOneWayGrouping: 0
-  m_SurfaceArc: 171.39
+  m_SurfaceArc: 212.2
   m_UseSideFriction: 1
   m_UseSideBounce: 0
-  m_SideArc: 1
+  m_SideArc: 21.48
