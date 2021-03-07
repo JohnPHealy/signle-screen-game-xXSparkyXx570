@@ -1220,7 +1220,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2088311267, guid: a59128d8ec98a0e4bb73980cde2828d4, type: 3}
       propertyPath: m_SurfaceArc
-      value: 212.2
+      value: 161.4
       objectReference: {fileID: 0}
     - target: {fileID: 577568333938750081, guid: a59128d8ec98a0e4bb73980cde2828d4, type: 3}
       propertyPath: m_Name
@@ -1229,10 +1229,6 @@ PrefabInstance:
     - target: {fileID: 577568333938750087, guid: a59128d8ec98a0e4bb73980cde2828d4, type: 3}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 577568333938750087, guid: a59128d8ec98a0e4bb73980cde2828d4, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5.9665184
       objectReference: {fileID: 0}
     - target: {fileID: 577568333938750087, guid: a59128d8ec98a0e4bb73980cde2828d4, type: 3}
       propertyPath: m_LocalPosition.x
