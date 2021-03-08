@@ -10,11 +10,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Collider2D groundCheck;
     [SerializeField] private LayerMask groundLayers;
 
-    
     private float moveDir;
     private Rigidbody2D myRB;
     private bool canJump;
-    
+
     private void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
@@ -39,19 +38,25 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
-    
+
     public void Move(InputAction.CallbackContext context)
     {
-       moveDir = context.ReadValue<float>();
+        moveDir = context.ReadValue<float>();
     }
-
     public void Jump(InputAction.CallbackContext context)
     {
         if (canJump)
         {
-
-            myRB.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
-            canJump = false;
+            if (context.started)
+            {
+                myRB.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+                canJump = false;
+            }
         }
-    }
+
+        if (context.canceled)
+        {
+            myRB.velocity = new Vector2(myRB.velocity.x, 0f);
+        }
+    } 
 }
