@@ -9,18 +9,29 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed, maxSpeed, jumpForce;
     [SerializeField] private Collider2D groundCheck;
     [SerializeField] private LayerMask groundLayers;
-
+    
     private float moveDir;
     private Rigidbody2D myRB;
     private bool canJump;
+    private SpriteRenderer mySprite;
 
     private void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
+        mySprite = GetComponentInChildren<SpriteRenderer>();
     }
 
     private void FixedUpdate()
     {
+        if (moveDir > 0)
+        {
+            mySprite.flipX = false;
+        }
+
+        if (moveDir < 0)
+        {
+            mySprite.flipX = true;
+        }
         var moveAxis = Vector3.right * moveDir;
 
         if (-maxSpeed < myRB.velocity.x && myRB.velocity.x < maxSpeed)
