@@ -10853,7 +10853,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.11119136, y: 0}
+  m_Offset: {x: -0.13258557, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10864,7 +10864,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1071157, y: 1}
+  m_Size: {x: 1.0643274, y: 1}
   m_EdgeRadius: 0
 --- !u!4 &634206365
 Transform:
@@ -12835,9 +12835,9 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
-        - m_Target: {fileID: 1506260326}
+        - m_Target: {fileID: 1064587134}
           m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: 
+          m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -12893,7 +12893,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.28617454, y: 0}
+  m_Offset: {x: -0.28997034, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -12904,7 +12904,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.74485886, y: 1}
+  m_Size: {x: 0.75245047, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &1318198500
 GameObject:
