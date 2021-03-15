@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8640a7-7820-4627-a5a2-f7be7da16bf1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DDemo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DDemo/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DDemo/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DDemo/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2DDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemy Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemy Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCombat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCombat.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/AIPatrol.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerCombat.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCombat.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pAIs15CZXlnqF8hyoBROHn10Zl" />
@@ -74,7 +75,8 @@
       <workItem from="1615207514801" duration="1565000" />
       <workItem from="1615213794959" duration="1736000" />
       <workItem from="1615383916758" duration="5106000" />
-      <workItem from="1615561294247" duration="1266000" />
+      <workItem from="1615561294247" duration="1267000" />
+      <workItem from="1615811101407" duration="991000" />
     </task>
     <servers />
   </component>

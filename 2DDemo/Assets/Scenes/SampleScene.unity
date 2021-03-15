@@ -642,7 +642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 117368702}
   m_Layer: 0
-  m_Name: Enemy setup 1 (3)
+  m_Name: Enemy setup 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1311,7 +1311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 340108165}
   m_Layer: 0
-  m_Name: Enemy setup 1 (2)
+  m_Name: Enemy setup 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11963,7 +11963,7 @@ GameObject:
   m_Component:
   - component: {fileID: 689638389}
   m_Layer: 0
-  m_Name: Enemy setup 1 (1)
+  m_Name: Enemy setup 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14335,7 +14335,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1237009616}
   m_Layer: 0
-  m_Name: Enemy setup 1 (4)
+  m_Name: Enemy setup 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17644,11 +17644,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2007530331922285549, guid: fc0ce3156f71de04cb95aed5b91a3497, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.32
+      value: 29.57
       objectReference: {fileID: 0}
     - target: {fileID: 2007530331922285549, guid: fc0ce3156f71de04cb95aed5b91a3497, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.97
+      value: -7.42
       objectReference: {fileID: 0}
     - target: {fileID: 2007530331922285549, guid: fc0ce3156f71de04cb95aed5b91a3497, type: 3}
       propertyPath: m_LocalPosition.z

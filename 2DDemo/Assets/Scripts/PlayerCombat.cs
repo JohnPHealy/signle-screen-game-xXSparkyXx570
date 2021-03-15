@@ -7,6 +7,8 @@ public class PlayerCombat : MonoBehaviour
 {
     [SerializeField] private Collider2D playerCheck;
     [SerializeField] private LayerMask playerLayers;
+    private bool killplayer = false;
+    private GameObject player;
 
 
     private void Update()
@@ -14,6 +16,13 @@ public class PlayerCombat : MonoBehaviour
         if (playerCheck.IsTouchingLayers(playerLayers))
         {
             Destroy(gameObject);
+            killplayer = false;
+        }
+
+        if (killplayer)
+        {
+            Destroy(player);
+            killplayer = false;
         }
     }
 
@@ -21,7 +30,9 @@ public class PlayerCombat : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Destroy(other.gameObject);
+            player = other.gameObject;
+            killplayer = true;
         }
     }
 }
+

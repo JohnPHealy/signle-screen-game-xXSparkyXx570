@@ -122,10 +122,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51e91b0e724470d4495807c2c5cfa1e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCheck: {fileID: 0}
+  playerCheck: {fileID: 279318313282690620}
   playerLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
 --- !u!1001 &2843378110941376310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -185,6 +185,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2636263661176484106, guid: d4ac10f31f4ec5840a0ee45c835d0e04, type: 3}
+      propertyPath: m_Radius
+      value: 0.41231266
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636263661176484106, guid: d4ac10f31f4ec5840a0ee45c835d0e04, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.21
+      objectReference: {fileID: 0}
     - target: {fileID: 2639304162226661538, guid: d4ac10f31f4ec5840a0ee45c835d0e04, type: 3}
       propertyPath: maxSpeed
       value: 50
@@ -241,3 +249,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40cdc43e9fe7d15478dcb51c948410a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &279318313282690620 stripped
+CircleCollider2D:
+  m_CorrespondingSourceObject: {fileID: 2636263661176484106, guid: d4ac10f31f4ec5840a0ee45c835d0e04, type: 3}
+  m_PrefabInstance: {fileID: 2843378110941376310}
+  m_PrefabAsset: {fileID: 0}
