@@ -103,7 +103,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1163267820030202913, guid: ec02629571c94494c9c7ea870079b45a, type: 3}
       propertyPath: m_Name
-      value: Fubar
+      value: Fubar Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1163267820030202913, guid: ec02629571c94494c9c7ea870079b45a, type: 3}
       propertyPath: m_Layer
