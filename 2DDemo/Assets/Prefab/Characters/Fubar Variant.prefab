@@ -103,7 +103,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1163267820030202913, guid: ec02629571c94494c9c7ea870079b45a, type: 3}
       propertyPath: m_Name
-      value: Fubar Variant
+      value: Fubar
       objectReference: {fileID: 0}
     - target: {fileID: 1163267820030202913, guid: ec02629571c94494c9c7ea870079b45a, type: 3}
       propertyPath: m_Layer
@@ -131,11 +131,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1163267820030202914, guid: ec02629571c94494c9c7ea870079b45a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.63
+      value: 40.88
       objectReference: {fileID: 0}
     - target: {fileID: 1163267820030202914, guid: ec02629571c94494c9c7ea870079b45a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.382
+      value: -7.99
       objectReference: {fileID: 0}
     - target: {fileID: 1163267820030202914, guid: ec02629571c94494c9c7ea870079b45a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -192,6 +192,14 @@ PrefabInstance:
     - target: {fileID: 3411581166811955053, guid: ec02629571c94494c9c7ea870079b45a, type: 3}
       propertyPath: moveSpeed
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 3411581166811955053, guid: ec02629571c94494c9c7ea870079b45a, type: 3}
+      propertyPath: respawnPoint.x
+      value: 40.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 3411581166811955053, guid: ec02629571c94494c9c7ea870079b45a, type: 3}
+      propertyPath: respawnPoint.y
+      value: -7.99
       objectReference: {fileID: 0}
     - target: {fileID: 3417400942272063173, guid: ec02629571c94494c9c7ea870079b45a, type: 3}
       propertyPath: m_Radius
