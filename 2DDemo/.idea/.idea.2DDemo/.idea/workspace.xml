@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac8640a7-7820-4627-a5a2-f7be7da16bf1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Fubar Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Fubar Variant.prefab" afterDir="false" />
-    </list>
+    <list default="true" id="ac8640a7-7820-4627-a5a2-f7be7da16bf1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +86,7 @@
       <workItem from="1615811101407" duration="1707000" />
       <workItem from="1615820507438" duration="1861000" />
       <workItem from="1615993422210" duration="9775000" />
-      <workItem from="1616091312520" duration="6345000" />
+      <workItem from="1616091312520" duration="7081000" />
     </task>
     <servers />
   </component>
