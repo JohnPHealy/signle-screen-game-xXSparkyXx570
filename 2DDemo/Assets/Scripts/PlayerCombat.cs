@@ -7,6 +7,8 @@ public class PlayerCombat : MonoBehaviour
 {
     [SerializeField] private Collider2D playerCheck;
     [SerializeField] private LayerMask playerLayers;
+    [SerializeField] private GameManager manager;
+
     private bool killplayer = false;
     private GameObject player;
 
@@ -30,8 +32,7 @@ public class PlayerCombat : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            player = other.gameObject;
-            killplayer = true;
+           manager.RespawnPlayer();
         }
     }
 }
