@@ -126,6 +126,7 @@ MonoBehaviour:
   playerLayers:
     serializedVersion: 2
     m_Bits: 64
+  manager: {fileID: 0}
 --- !u!1001 &2843378110941376310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -179,7 +180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2007530331922285550, guid: d4ac10f31f4ec5840a0ee45c835d0e04, type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: Enemy Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2007530331922285550, guid: d4ac10f31f4ec5840a0ee45c835d0e04, type: 3}
       propertyPath: m_IsActive
@@ -196,6 +197,10 @@ PrefabInstance:
     - target: {fileID: 2636263661176484106, guid: d4ac10f31f4ec5840a0ee45c835d0e04, type: 3}
       propertyPath: m_Offset.y
       value: 0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636263661176484106, guid: d4ac10f31f4ec5840a0ee45c835d0e04, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2639304162226661538, guid: d4ac10f31f4ec5840a0ee45c835d0e04, type: 3}
       propertyPath: maxSpeed

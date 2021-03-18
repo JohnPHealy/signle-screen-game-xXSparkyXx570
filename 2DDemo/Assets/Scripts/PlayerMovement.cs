@@ -12,7 +12,6 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D myRB;
     private bool canJump;
     private SpriteRenderer mySprite;
-    public Vector3 respawnPoint;
 
     private void Start()
     {
@@ -48,17 +47,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
-    private void OnTriggerEnter2D(Collider2D other){
-        if (other.gameObject.CompareTag("Enemy"))
-        {
-            transform.position = respawnPoint;
-        }
-
-        if (other.gameObject.CompareTag("Checkpoint"));{ 
-            respawnPoint = other.transform.position; 
-        }
-                
-    }
+   
 
     public void Move(InputAction.CallbackContext context)
     {
