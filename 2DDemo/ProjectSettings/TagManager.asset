@@ -7,6 +7,7 @@ TagManager:
   - PatrolPoint
   - Checkpoint
   - Enemy
+  - MyCoin
   layers:
   - Default
   - TransparentFX
